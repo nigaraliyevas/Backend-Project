@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o5oyLGO23Xcfp/x7lWE02hkCQakyrO0zLGi5MGnZ8tM=",
+  "Hash": "DHGhuZ85XGgnRwtn72H65k60ofJjocaI2CgisepPO+A=",
   "Source": "EduHome",
   "BasePath": "_content/EduHome",
   "Mode": "Default",
@@ -1518,6 +1518,25 @@
       "OriginalItemSpec": "wwwroot\\img\\event\\event-details.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speaker.jpg",
+      "SourceId": "EduHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\",
+      "BasePath": "_content/EduHome",
+      "RelativePath": "img/event/speaker.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event\\speaker.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speaker1.jpg",
       "SourceId": "EduHome",
       "SourceType": "Discovered",
@@ -1554,6 +1573,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\event\\speaker2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speakerr.jpg",
+      "SourceId": "EduHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\",
+      "BasePath": "_content/EduHome",
+      "RelativePath": "img/event/speakerr.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event\\speakerr.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\footer\\footer1.jpg",

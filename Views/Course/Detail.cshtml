@@ -1,0 +1,127 @@
+﻿@model CourseDetailVM
+@{
+    ViewData["Title"] = "Course Detail";
+}
+
+<div class="banner-area-wrapper">
+    <div class="banner-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-content">
+                            <h2>courses details</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner Area End -->
+<!-- Blog Start -->
+<div class="courses-details-area blog-area pt-150 pb-140">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="courses-details">
+                    <div class="courses-details-img">
+                        <img src="~/img/course/@Model.Course.CourseImages.FirstOrDefault(i=>i.IsMain)?.ImageURL" alt="courses-details" width="100%">
+                    </div>
+                    <div class="course-details-content">
+                        <h2>@Model.CourseCategory.Name</h2>
+                        <p>@Model.Course.Desc</p>
+                        <div class="course-details-left">
+                            <div class="single-course-left">
+                                <h3>about course</h3>
+                                <p>@Model.Course.About</p>
+                            </div>
+                            <div class="single-course-left">
+                                <h3>how to apply</h3>
+                                <p>@Model.Course.Apply</p>
+                            </div>
+                            <div class="single-course-left">
+                                <h3>certification</h3>
+                                <p>@Model.Course.Certification</p>
+                            </div>
+                        </div>
+                        <div class="course-details-right">
+                            <h3>COURSE FEATURES</h3>
+                            <ul>
+                                <li>starts <span>@Model.CourseFeature.StartDate.ToString("dd MMM, yyyy")</span></li>
+                                <li>duration <span>@Model.CourseFeature.Duration</span></li>
+                                <li>class duration <span>@Model.CourseFeature.ClassDuration</span></li>
+                                <li>skill level <span>@Model.CourseFeature.SkillLevel</span></li>
+                                <li>language <span>@Model.CourseFeature.Language</span></li>
+                                <li>students <span>@Model.CourseFeature.StudentCount</span></li>
+                                <li>assesments <span>@Model.CourseFeature.Assesments</span></li>
+                            </ul>
+                            <h3 class="red">course fee $@Model.CourseFeature.CourseFee</h3>
+                        </div>
+                    </div>
+                    <div class="reply-area">
+                        <h3>LEAVE A REPLY</h3>
+                        <p>I must explain to you how all this a mistaken idea of ncing great explorer of the rut<br> the is lder of human happinescias unde omnis iste natus error sit volptatem </p>
+                        <form id="contact-form" action="http://demo.devitems.com/eduhome/mail.php" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Name</p>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Email</p>
+                                    <input type="text" name="email" id="email">
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Subject</p>
+                                    <input type="text" name="subject" id="subject">
+                                    <p>Massage</p>
+                                    <textarea name="message" id="message" cols="15" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <a class="reply-btn" href="#" data-text="send"><span>send message</span></a>
+                            <p class="form-messege"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-sidebar right">
+                    <div class="single-blog-widget mb-50">
+                        <h3>search</h3>
+                        <div class="blog-search">
+                            <form id="search" action="#">
+                                <input type="search" placeholder="Search..." name="search" />
+                                <button type="submit">
+                                    <span><i class="fa fa-search"></i></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="single-blog-widget mb-50">
+                        <h3>This Course has in these categories</h3>
+                        <ul>
+                            @foreach (var category in Model.Categories)
+                            {
+                                <li><a href="#">@category.Name</a></li>
+                            }
+                        </ul>
+                    </div>
+                    @await Component.InvokeAsync("DetailRightSide")
+                    <div class="single-blog-widget">
+                        <h3>tags</h3>
+                        <div class="single-tag">
+                            @foreach (var tag in Model.Tags)
+                            {
+
+                                <a href="blog-details.html" class="mr-10 mb-10">@tag.TagName</a>
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

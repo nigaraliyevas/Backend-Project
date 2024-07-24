@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Course>
+<ul>
+    @foreach (var course in Model)
+    {
+        <div class="row">
+            <a class="col-lg-6" asp-action="course" asp-route-id="@course.Id">@course.CourseCategories.Select(s => s.Category.Name)</a>
+            <img class="col-lg-6" src="~/img/@course.CourseImages.FirstOrDefault(c=>c.IsMain).ImageURL" width="70" height="70" />
+        </div>
+    }
+</ul>

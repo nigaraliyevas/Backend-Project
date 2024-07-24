@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EduHome.Models.Common;
 
 namespace EduHome.Models
 {
@@ -8,7 +9,7 @@ namespace EduHome.Models
         public string Header { get; set; }
         [MaxLength(200)]
         public string Subtitle { get; set; }
-        [MaxLength(50)]
-        public string LinkURL { get; set; }
+        public int SliderId { get; set; }
+        public Slider Slider { get; set; }
     }
 }

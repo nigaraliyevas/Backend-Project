@@ -1,0 +1,47 @@
+﻿@model HeaderVM
+<header class="top">
+    <div class="header-area header-sticky fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="logo">
+                        <a href="index.html"><img src="~/img/logo/@Model.Settings.FirstOrDefault(k=>k.Key=="Logo").Value" alt="eduhome" /></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <div class="content-wrapper one">
+                        <!-- Main Menu Start -->
+                        <div class="main-menu one text-right">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="Index">Home</a>
+                                    </li>
+                                    <li><a asp-controller="About" asp-action="Index">About</a></li>
+                                    <li>
+                                        <a asp-controller="Course" asp-action="Index">courses</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Event" asp-action="Index">event</a>
+                                    </li>
+                                    <li class="hidden-sm">
+                                        <a asp-controller="teacher" asp-action="Index">teacher</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="blog" asp-action="Index">blog</a>
+                                    </li>
+                                    <li><a asp-controller="contact" asp-action="Index">Contact</a></li>
+                                    @* <li><a href="#">Buy Now</a> *@
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu hidden-lg hidden-md one"></div>
+                        <!-- Main Menu End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+

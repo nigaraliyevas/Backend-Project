@@ -17,6 +17,7 @@ namespace EduHome
             //    options.IdleTimeout = TimeSpan.FromSeconds(20);
             //});
             services.AddHttpContextAccessor();
+            //services.AddScoped<ICategoryService, CategoryService>();
         }
     }
 }

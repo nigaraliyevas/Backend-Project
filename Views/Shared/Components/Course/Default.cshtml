@@ -1,0 +1,24 @@
+﻿@model IEnumerable<CourseCategory>
+<div class="row">
+    @foreach (var course in Model)
+    {
+        <div class="col-md-4 col-sm-6 col-xs-12 mb-5 pb-5">
+            <div class="single-course">
+                <div class="course-img">
+                    <a asp-action="detail" asp-controller="course" asp-route-id="@course.Course.Id" asp-route-name="@course.Category.Name">
+                        <img src="~/img/course/@course.Course.CourseImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="course">
+                        <div class="course-hover">
+                            <i class="fa fa-link"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="course-content">
+                    <h3><a asp-action="detail" asp-controller="course" asp-route-id="@course.Course.Id" asp-route-name="@course.Category.Name">@course.Category.Name</a></h3>
+                    <p>@course.Course.ShortDesc</p>
+                    <a class="default-btn" asp-action="detail" asp-controller="course" asp-route-id="@course.Course.Id" asp-route-name="@course.Category.Name">read more</a>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

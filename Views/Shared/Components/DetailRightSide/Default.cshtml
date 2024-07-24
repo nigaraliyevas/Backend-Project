@@ -1,0 +1,37 @@
+﻿@model DetailRightSideVM
+<div class="single-blog-widget mb-50">
+    <h3>categories</h3>
+    <ul>
+        @foreach (var category in Model.CategoryNameAndCountVM)
+        {
+            <li><a href="#">@category.Name (<span>@category.Count</span>) </a></li>
+        }
+    </ul>
+</div>
+
+<div class="single-blog-widget mb-50">
+    <div class="single-blog-banner">
+        <a href="blog-details.html" id="blog"><img src="~/img/blog/@Model.EducationTheme.FirstOrDefault(k=>k.Key=="EducationTheme").Value" alt="blog"></a>
+        <h2>best<br> eductaion<br> theme</h2>
+    </div>
+</div>
+<div class="single-blog-widget mb-50">
+    <h3>latest blogs</h3>
+    @foreach (var blog in Model.Blogs)
+    {
+        <div class="single-post mb-30">
+            <div class="single-post-img">
+                <a asp-route-id="@blog.Id" asp-controller="blog" asp-action="detail">
+                    <img src="~/img/blog/@blog.BlogImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="blog" width="100">
+                    <div class="blog-hover">
+                        <i class="fa fa-link"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="single-post-content">
+                <h4><a asp-route-id="@blog.Id" asp-controller="blog" asp-action="detail">English Language Course for you</a></h4>
+                <p>By @blog.WrittenBy  / @blog.WrittenDate.ToString("MMM dd, yyyy")</p>
+            </div>
+        </div>
+    }
+</div>

@@ -317,12 +317,20 @@
       "PackagePath": "staticwebassets\\img\\event\\event9.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speaker.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\speaker.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speaker1.jpg",
       "PackagePath": "staticwebassets\\img\\event\\speaker1.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speaker2.jpg",
       "PackagePath": "staticwebassets\\img\\event\\speaker2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\speakerr.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\speakerr.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\footer\\footer1.jpg",
