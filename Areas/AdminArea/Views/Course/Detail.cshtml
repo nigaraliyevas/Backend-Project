@@ -1,0 +1,95 @@
+﻿@model EduHome.Areas.AdminArea.ViewModel.Course.CourseDetailVM
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<div class="px-5">
+    <h1>Course Details</h1>
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label asp-for="Desc" class="control-label col-md-2">Description</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.Desc</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShortDesc" class="control-label col-md-2">Short Description</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.ShortDesc</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CreatedDate" class="control-label col-md-2">Created Date</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.CreatedDate</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Start Date</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.StartDate</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Duration</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.Duration</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Course Fee</label>
+            <div class="col-md-10">
+                <p class="form-control-static">@Model.CourseFee</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Categories</label>
+            <div class="col-md-10">
+                <ul>
+                    @foreach (var category in Model.CourseCategories)
+                    {
+                        <li>@category</li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Tags</label>
+            <div class="col-md-10">
+                <ul>
+                    @foreach (var tag in Model.CourseTags)
+                    {
+                        <li>@tag</li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Images</label>
+            <div class="col-md-10 d-flex">
+                <div>
+                    <img src="~/img/course/@Model.CourseImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="" />
+                    <h6>Main Image</h6>
+                </div>
+                <ul>
+                    @foreach (var imageUrl in Model.CourseImages)
+                    {
+                        if (!imageUrl.IsMain)
+                        {
+
+                            <li><img src="~/img/course/@imageUrl.ImageURL" alt="Course Image" style="max-width: 200px; max-height: 100px;" /></li>
+                            <a asp-action="SetMainPhoto" asp-route-id="@imageUrl.Id" class="d-block">Click</a>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-warning">Update</a> |
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+    </p>
+</div>

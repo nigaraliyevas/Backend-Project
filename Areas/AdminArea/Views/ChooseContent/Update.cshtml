@@ -1,0 +1,61 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.ChooseContent
+@model ChooseContentUpdateVM
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="row w-100 px-5">
+    <h1>Update</h1>
+
+    <h4>Choose Content</h4>
+    <h5>Images</h5>
+    <div class="d-flex border-1">
+        <div class="col-lg-6">
+            <h6>Bg Image</h6>
+            <img src="~/img/choose/@Model.BgImageURL" alt="" width="500" />
+        </div>
+        <div class="col-lg-6">
+            <h6>Image</h6>
+            <img src="~/img/choose/@Model.ImageURL" alt="" width="100" />
+        </div>
+    </div>
+    <hr />
+    <div class="col-md-4">
+        <form asp-action="update" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Header" class="control-label"></label>
+                <input class="border-1" asp-for="Header" class="form-control" />
+                <span asp-validation-for="Header" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea class="w-50" class="border-1" asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageURLUpload" class="control-label"></label>
+                <input class="border-1" asp-for="ImageURLUpload" class="form-control" />
+                <span asp-validation-for="ImageURLUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BgImageURLUpload" class="control-label"></label>
+                <input class="border-1" asp-for="BgImageURLUpload" class="form-control" />
+                <span asp-validation-for="BgImageURLUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a class="btn btn-outline-primary" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

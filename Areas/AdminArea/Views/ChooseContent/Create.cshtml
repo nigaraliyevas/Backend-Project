@@ -1,0 +1,50 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.ChooseContent
+@model ChooseContentCreateVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="row w-100 px-5">
+    <h1>Create</h1>
+
+    <h4>Choose Content</h4>
+    <hr />
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Header" class="control-label"></label>
+                <input class="border-1" asp-for="Header" class="form-control" />
+                <span asp-validation-for="Header" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea class="border-1" asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageURLUpload" class="control-label"></label>
+                <input class="border-1" asp-for="ImageURLUpload" class="form-control"></input>
+                <span asp-validation-for="ImageURLUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BgImageURLUpload" class="control-label"></label>
+                <input class="border-1" asp-for="BgImageURLUpload" class="form-control"></input>
+                <span asp-validation-for="BgImageURLUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a class="btn btn-outline-primary" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

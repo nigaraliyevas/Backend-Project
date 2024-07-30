@@ -1,0 +1,14 @@
+﻿table td {
+    max-width: 600px !important;
+    word-wrap: break-word !important;
+    white-space: revert !important;
+}
+
+.border-input {
+    border: 1px solid black !important;
+    padding: 5px;
+}
+
+select option {
+    border-bottom: 1px solid black !important;
+}

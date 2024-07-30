@@ -1,6 +1,1382 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\custom.css",
+      "PackagePath": "staticwebassets\\admin\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\admin\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\admin\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\admin\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\admin\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\bg-pricing.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\bg-pricing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\bg-smart-home-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\bg-smart-home-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\bg-smart-home-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\bg-smart-home-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\drake.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\drake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\home-decor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\home-decor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\home-decor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\chat.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\danger-chat-ill.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\danger-chat-ill.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\dark-lock-ill.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\dark-lock-ill.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\illustration-lock.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\illustration-lock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\illustration-reset.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\illustration-reset.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\illustration-signin.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\illustration-signin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\illustration-signup.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\illustration-signup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\illustration-verification.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\illustration-verification.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\pattern-tree.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\pattern-tree.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\ivana-squares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\admin\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\admin\\img\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\admin\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\marie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\meeting.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\office-dark.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\office-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\product-12.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-1-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-1-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-2-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-2-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-3-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-3-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-4-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-4-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-5-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-5-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-6-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-6-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-7-min.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-7-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\bootstrap.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\bootstrap.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\creative-tim.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\creative-tim.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\devto.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\devto.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\github.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\google-webdev.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\google-webdev.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\icon-bulb.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\icon-bulb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\admin\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\tesla-model-s.png",
+      "PackagePath": "staticwebassets\\admin\\img\\tesla-model-s.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\img\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\vr-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\admin\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\admin\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -201,6 +1577,14 @@
       "PackagePath": "staticwebassets\\img\\blog\\blog9.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\choose\\a1676a2b-d4cc-47cd-b421-59d89c256761.jpg",
+      "PackagePath": "staticwebassets\\img\\choose\\a1676a2b-d4cc-47cd-b421-59d89c256761.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\choose\\b4d782f1-07e5-49fe-a9cd-9ffacb00963a.jpg",
+      "PackagePath": "staticwebassets\\img\\choose\\b4d782f1-07e5-49fe-a9cd-9ffacb00963a.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\choose\\choose-bd.jpg",
       "PackagePath": "staticwebassets\\img\\choose\\choose-bd.jpg"
     },
@@ -219,6 +1603,22 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\contact\\contact3.png",
       "PackagePath": "staticwebassets\\img\\contact\\contact3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\914a7278-3087-455a-96db-1bab1f19be07.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\914a7278-3087-455a-96db-1bab1f19be07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\98d07d9c-715a-4a48-96cd-2499f8125bb5.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\98d07d9c-715a-4a48-96cd-2499f8125bb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\bd87e8d6-d31a-43cf-9188-452c7534de78.jpeg",
+      "PackagePath": "staticwebassets\\img\\course\\bd87e8d6-d31a-43cf-9188-452c7534de78.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\cc3c9733-ae67-4418-a9c6-5b25c6d334f8.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\cc3c9733-ae67-4418-a9c6-5b25c6d334f8.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\course-bg.jpg",
@@ -263,6 +1663,18 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\courses-details.jpg",
       "PackagePath": "staticwebassets\\img\\course\\courses-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\d0a397af-eebe-4189-ae5d-e755547a108e.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\d0a397af-eebe-4189-ae5d-e755547a108e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\eb2ff5de-6741-4f7f-9195-411e5f997faa.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\eb2ff5de-6741-4f7f-9195-411e5f997faa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\f161f3c3-8202-43dd-8e10-bf015a8360b4.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\f161f3c3-8202-43dd-8e10-bf015a8360b4.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\event-details.jpg",

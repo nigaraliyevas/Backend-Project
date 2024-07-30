@@ -30,6 +30,15 @@ namespace EduHome.DAL
         public DbSet<EventSpeaker> EventSpeakers { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<AboutContent> AboutContents { get; set; }
+        //Teacher
+        public DbSet<Teacher> Teachers { get; set; }
+
+        public DbSet<TeacherImage> TeacherImages { get; set; }
+        public DbSet<TeacherDetail> TeacherDetails { get; set; }
+        public DbSet<Hobbie> Hobbies { get; set; }
+        public DbSet<TeacherHobbie> TeacherHobbies { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<TeacherSkill> TeacherSkills { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

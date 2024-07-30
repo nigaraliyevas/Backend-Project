@@ -1,0 +1,36 @@
+﻿@model NoticeBoard
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="row px-5 w-100">
+    <h4>NoticeBoard</h4>
+    <hr />
+    <div class="col-md-4">
+        <form method="post" asp-controller="notice">
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input class="border-1" asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desc" class="control-label"></label>
+                <textarea class="border-1" asp-for="Desc" class="form-control"></textarea>
+                <span asp-validation-for="Desc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary my-4" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a class="btn btn-outline-primary" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial", false);
+    }
+}
+

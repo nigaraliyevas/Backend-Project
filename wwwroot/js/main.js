@@ -24,9 +24,9 @@
     /*------------------------------------
        jQuery SearchMenu 
    --------------------------------------*/
-    $(document).on("keyup", "#input-search", function () {
+    $(document).on("keyup", ".input-search", function () {
         $(".searchList li").remove();
-        let value = $("#input-search").val();
+        let value = $(".input-search").val();
         if (value) {
             $.ajax({
                 url: "/course/search?value=" + value,
