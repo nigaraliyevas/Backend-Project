@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/mH2A2Wa8rHFZLU4sUITCV8ZJ4bVt2fpSRCd5RSqLhM=",
+  "Hash": "EHtyo4rAtQGYqostReFHM8XDe95xlo8O8R648IwoGK8=",
   "Source": "EduHome",
   "BasePath": "_content/EduHome",
   "Mode": "Default",
@@ -7311,6 +7311,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\blog\\60ea4b06-a187-4028-9673-9221b8be93d0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\9de7619f-bd5c-4a67-bc4d-234418937030.jpg",
+      "SourceId": "EduHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\",
+      "BasePath": "_content/EduHome",
+      "RelativePath": "img/blog/9de7619f-bd5c-4a67-bc4d-234418937030.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog\\9de7619f-bd5c-4a67-bc4d-234418937030.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\a3643070-075c-40e7-b654-fceee3b04b86.jpg",

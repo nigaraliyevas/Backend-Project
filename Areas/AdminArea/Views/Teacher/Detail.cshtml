@@ -1,0 +1,96 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Teacher
+@model TeacherDetailVM
+
+@{
+    ViewData["Title"] = "Teacher Details";
+}
+
+<h1>@Model.Name</h1>
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Name</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Name</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Profession</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Profession</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">About</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.About</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Degree</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.Degree</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Experience</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.Experience</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Faculty</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.Faculty</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Mail</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.Mail</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Phone Number</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.PhoneNumber</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Skype Username</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.TeacherDetail.SkypeUsername</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Skills</label>
+        <div class="col-md-10">
+            <p class="form-control-static">
+                @foreach (var skill in Model.TeacherSkills)
+                {
+                    @skill.Name <br />
+                }
+            </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Hobbies</label>
+        <div class="col-md-10">
+            <p class="form-control-static">
+                @foreach (var hobby in Model.TeacherHobbies)
+                {
+                    @hobby.Name <br />
+                }
+            </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Images</label>
+        <div class="col-md-10">
+            @foreach (var image in Model.TeacherImages)
+            {
+                <img src="~/img/teacher/@image.ImageURL" alt="Teacher Image" class="img-thumbnail" />
+            }
+        </div>
+    </div>
+</div>
