@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Blog>
+
+@{
+    ViewData["Title"] = "Blogs";
+}
+
+<h2>Blog List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Desc</th>
+            <th>Tags</th>
+            <th>WrittenBy</th>
+            <th>Date Created</th>
+            <th>ImageURL</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model)
+        {
+            <tr>
+                <td>@blog.Header</td>
+                <td>@blog.Desc</td>
+                <td>
+                    @foreach (var blogTag in blog.BlogTags)
+                    {
+                        <span class="label label-info">@blogTag.Tag.TagName</span>
+                    }
+                </td>
+                <td>@blog.WrittenBy</td>
+                <td>@blog.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                <td><img src="~/img/blog/@blog.BlogImages.FirstOrDefault(i => i.IsMain)?.ImageURL" alt="Alternate Text" /></td>
+                <td>
+                    <a asp-action="Detail" asp-route-id="@blog.Id" class="btn btn-info">Detail</a>
+                    <a asp-action="Update" asp-route-id="@blog.Id" class="btn btn-warning">Update</a>
+                    <a asp-action="Delete" asp-route-id="@blog.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Create</a>
+</div>

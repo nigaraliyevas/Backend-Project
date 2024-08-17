@@ -1,0 +1,96 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Event
+@model EventDetailVM
+
+@{
+    ViewData["Title"] = "Event Detail";
+}
+
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Name</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Name</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">City</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.City</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Full Address</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.FullAddress</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Description</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Desc</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Start Date</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.EventStartDate.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">End Date</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.EventEndDate.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Images</label>
+        <div class="col-md-10 d-flex">
+            <div>
+                <img src="~/img/event/@Model.EventImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="" />
+                <h6>Main Image</h6>
+            </div>
+            <ul>
+                @foreach (var imageUrl in Model.EventImages)
+                {
+                    if (!imageUrl.IsMain)
+                    {
+
+                        <li><img src="~/img/event/@imageUrl.ImageURL" alt="Course Image" style="max-width: 200px; max-height: 100px;" /></li>
+                        <a asp-action="SetMainPhoto" asp-route-id="@imageUrl.Id" class="d-block">Make main photo</a>
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tags</label>
+        <div class="col-md-10">
+            @foreach (var tag in Model.EventTags)
+            {
+                <p class="">@tag.Tags.TagName</p>
+            }
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Speakers</label>
+        <div class="col-md-10">
+            @if (Model.EventSpeakers.Count() == 0)
+            {
+                <p>No Speakers</p>
+            }
+            @foreach (var speaker in Model.EventSpeakers)
+            {
+                <div class="mb-2">
+                    <img src="~/img/event/@speaker.Speaker.ImageURL" alt="@speaker.Speaker.Name" style="width: 50px; height: auto; margin-right: 10px;" />
+                    <strong>@speaker.Speaker.Name</strong> - @speaker.Speaker.Position
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-warning mt-5" asp-action="Update" asp-route-id="@Model.Id">Update</a> |
+    <a class="btn btn-outline-success mt-5" asp-action="Index">Back to List</a>
+</div>

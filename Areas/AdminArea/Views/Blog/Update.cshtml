@@ -1,0 +1,92 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Blog
+@model BlogUpdateVM
+
+@{
+    ViewData["Title"] = "Update Blog";
+}
+
+<h2>Update Blog</h2>
+
+<form asp-action="Update" method="post" enctype="multipart/form-data" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="WrittenBy" class="control-label col-md-2">Written By</label>
+        <div class="col-md-10">
+            <input asp-for="WrittenBy" class="form-control" />
+            <span asp-validation-for="WrittenBy" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WrittenDate" class="control-label col-md-2">Written Date</label>
+        <div class="col-md-10">
+            <input asp-for="WrittenDate" class="form-control" type="date" />
+            <span asp-validation-for="WrittenDate" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Header" class="control-label col-md-2">Header</label>
+        <div class="col-md-10">
+            <input asp-for="Header" class="form-control" />
+            <span asp-validation-for="Header" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Desc" class="control-label col-md-2">Description</label>
+        <div class="col-md-10">
+            <textarea asp-for="Desc" class="form-control" rows="5"></textarea>
+            <span asp-validation-for="Desc" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SelectedTagIds" class="control-label col-md-2">Tags</label>
+        <div class="col-md-10">
+            <select asp-for="SelectedTagIds" asp-items="ViewBag.Tags" class="form-control" multiple></select>
+            <span asp-validation-for="SelectedTagIds" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageURLUpload" class="control-label col-md-2">Upload Images</label>
+        <div class="col-md-10">
+            <input asp-for="ImageURLUpload" class="form-control" type="file" multiple />
+            <span asp-validation-for="ImageURLUpload" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Existing Images</label>
+        <div class="d-flex">
+            <div class="border-input">
+                <img src="~/img/blog/@Model.BlogImages?.FirstOrDefault(i=>i.IsMain)?.ImageURL" alt="" width="200" />
+                <h6>Main Image</h6>
+            </div>
+            @if (Model.BlogImages is not null)
+            {
+                @foreach (var img in Model.BlogImages)
+                {
+                    if (!img.IsMain)
+                    {
+                        <div class="border-input">
+                            <img src="~/img/blog/@img.ImageURL" alt="" width="100" />
+                            <a class="d-block btn btn-danger p-1" asp-action="deleteImage" asp-route-id="@img.Id">Delete</a>
+                        </div>
+                    }
+                }
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" class="btn btn-default">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

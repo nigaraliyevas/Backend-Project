@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Event>
+
+@{
+    ViewData["Title"] = "Events";
+}
+
+<h3>Events</h3>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Full Address</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Images</th>
+            <th>Tags</th>
+            <th>Speakers</th>
+            <th>Settings</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ev in Model)
+        {
+            <tr>
+                <td>@ev.Name</td>
+                <td>@ev.City</td>
+                <td>@ev.FullAddress</td>
+                <td>@ev.Desc</td>
+                <td>@ev.EventStartDate.ToString("dd/MM/yyyy")</td>
+                <td>@ev.EventEndDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @foreach (var image in ev.EventImages)
+                    {
+                        <img src="~/img/event/@image.ImageURL" alt="Event Image" style="width: 100px; height: auto; margin-right: 10px;" />
+                    }
+                </td>
+                <td>
+                    @foreach (var tag in ev.EventTags)
+                    {
+                        <p>@tag.Tags.TagName</p>
+                    }
+                </td>
+                <td>
+                    @foreach (var speaker in ev.EventSpeaker)
+                    {
+                        <div>
+                            <img src="~/img/event/@speaker.Speaker.ImageURL" alt="@speaker.Speaker.Name" style="width: 50px; height: auto; margin-right: 10px;" />
+                            <strong>@speaker.Speaker.Name</strong> - @speaker.Speaker.Position
+                        </div>
+                        <br>
+                        <br>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-outline-success" asp-action="update" asp-route-id="@ev.Id"><i class="fa-solid fa-pen-to-square fa-2xl"></i></a> |
+                    <a class="btn btn-outline-warning" asp-action="Detail" asp-route-id="@ev.Id"><i class="fa-solid fa-circle-info fa-2xl"></i></a> |
+                    <a class="btn btn-outline-danger" asp-action="delete" asp-route-id="@ev.Id"><i class="fa-solid fa-trash fa-2xl"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

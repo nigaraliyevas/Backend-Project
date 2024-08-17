@@ -70,7 +70,7 @@
             <label class="control-label col-md-2">Images</label>
             <div class="col-md-10 d-flex">
                 <div>
-                    <img src="~/img/course/@Model.CourseImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="" />
+                    <img src="~/img/course/@Model.CourseImages.FirstOrDefault(i=>i.IsMain)?.ImageURL" alt="" />
                     <h6>Main Image</h6>
                 </div>
                 <ul>
@@ -80,7 +80,7 @@
                         {
 
                             <li><img src="~/img/course/@imageUrl.ImageURL" alt="Course Image" style="max-width: 200px; max-height: 100px;" /></li>
-                            <a asp-action="SetMainPhoto" asp-route-id="@imageUrl.Id" class="d-block">Click</a>
+                            <a asp-action="SetMainPhoto" asp-route-id="@imageUrl.Id" class="d-block">Make main photo</a>
                         }
                     }
                 </ul>

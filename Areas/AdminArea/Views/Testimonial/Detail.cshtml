@@ -1,0 +1,28 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Testimonial
+@model TestimonialDetailVM
+
+@{
+    ViewBag.Title = "Testimonial Details";
+}
+
+
+<div class="px-5">
+    <h2>Testimonial Details</h2>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="~/img/testimonial/@Model.ImageURL" class="card-img" alt="@Model.Name">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Name</h5>
+                    <p class="card-text"><strong>Position: </strong>@Model.Position</p>
+                    <p class="card-text"><strong>Description: </strong>@Model.Desc</p>
+                    <p class="card-text"><small class="text-muted">Created on: @Model.CreatedDate?.ToString("dd/mm/yyyy")</small></p>
+                    <a href="@Url.Action("Update", "Testimonial", new { id = Model.Id })" class="btn btn-primary">Update</a>
+                    <a href="@Url.Action("Index", "Testimonial")" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

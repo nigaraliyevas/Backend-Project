@@ -1533,6 +1533,18 @@
       "PackagePath": "staticwebassets\\img\\banner\\banner.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\60ea4b06-a187-4028-9673-9221b8be93d0.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\60ea4b06-a187-4028-9673-9221b8be93d0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\a3643070-075c-40e7-b654-fceee3b04b86.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\a3643070-075c-40e7-b654-fceee3b04b86.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\b81e5b24-fd2c-4325-993d-d1a91abf9faf.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b81e5b24-fd2c-4325-993d-d1a91abf9faf.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\blog\\blog-detail.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-detail.jpg"
     },
@@ -1605,6 +1617,10 @@
       "PackagePath": "staticwebassets\\img\\contact\\contact3.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\62b83331-b0ad-4bab-930d-b0ac1d3d2df8.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\62b83331-b0ad-4bab-930d-b0ac1d3d2df8.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\914a7278-3087-455a-96db-1bab1f19be07.jpg",
       "PackagePath": "staticwebassets\\img\\course\\914a7278-3087-455a-96db-1bab1f19be07.jpg"
     },
@@ -1669,12 +1685,36 @@
       "PackagePath": "staticwebassets\\img\\course\\d0a397af-eebe-4189-ae5d-e755547a108e.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\d4dd39b1-1b09-4b37-88fd-d9c4945425a5.jpg",
+      "PackagePath": "staticwebassets\\img\\course\\d4dd39b1-1b09-4b37-88fd-d9c4945425a5.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\eb2ff5de-6741-4f7f-9195-411e5f997faa.jpg",
       "PackagePath": "staticwebassets\\img\\course\\eb2ff5de-6741-4f7f-9195-411e5f997faa.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\course\\f161f3c3-8202-43dd-8e10-bf015a8360b4.jpg",
       "PackagePath": "staticwebassets\\img\\course\\f161f3c3-8202-43dd-8e10-bf015a8360b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\32c30b2f-b73d-4718-9a91-a1acf81a7c4b.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\32c30b2f-b73d-4718-9a91-a1acf81a7c4b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\3f65d7a8-6005-4701-a3c1-ce8a38029c12.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\3f65d7a8-6005-4701-a3c1-ce8a38029c12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\6d98773d-dcd6-47dc-863e-c90d0996710f.jpeg",
+      "PackagePath": "staticwebassets\\img\\event\\6d98773d-dcd6-47dc-863e-c90d0996710f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\788f1748-e5b6-42e1-b2e6-c710297ec0d5.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\788f1748-e5b6-42e1-b2e6-c710297ec0d5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\b395ca87-1bbc-4439-9ca9-8f36ac52d752.jpg",
+      "PackagePath": "staticwebassets\\img\\event\\b395ca87-1bbc-4439-9ca9-8f36ac52d752.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Backend\\Backend-Project\\EduHome\\wwwroot\\img\\event\\event-details.jpg",

@@ -1,0 +1,81 @@
+﻿@model EduHome.Areas.AdminArea.ViewModel.Blog.BlogDetailVM
+
+@{
+    ViewData["Title"] = "Blog Details";
+}
+
+<h2>Blog Details</h2>
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Written By</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.WrittenBy</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Written Date</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.WrittenDate.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Header</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Header</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Description</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Desc</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Images</label>
+        <div class="col-md-10">
+            @if (Model.ImageURL != null && Model.ImageURL.Count > 0)
+            {
+                <ul class="list-unstyled">
+                    @foreach (var image in Model.ImageURL)
+                    {
+                        <li>
+                            <img src="~/img/blog/@image.ImageURL" alt="Blog Image" style="max-width: 200px; height: auto;" class="img-thumbnail" />
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-muted">No images available.</p>
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Tags</label>
+        <div class="col-md-10">
+            @if (Model.BlogTags != null && Model.BlogTags.Count > 0)
+            {
+                @foreach (var tag in Model.BlogTags)
+                {
+                    <span class="label label-info">@tag.Tag.TagName</span>
+                }
+            }
+            else
+            {
+                <p class="text-muted">No tags associated with this blog.</p>
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <a asp-action="Index" class="btn btn-primary">Back to List</a>
+        </div>
+    </div>
+</div>

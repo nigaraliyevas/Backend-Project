@@ -7,7 +7,7 @@ namespace EduHome.ViewComponents
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var testimonial = _context.Testimonials.Single();
+            var testimonial = _context.Testimonials.ToList();
             return View(await Task.FromResult(testimonial));
         }
     }

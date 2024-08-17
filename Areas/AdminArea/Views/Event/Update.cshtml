@@ -1,0 +1,112 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Event
+@model EventUpdateVM
+
+@{
+    ViewData["Title"] = "Update Event";
+}
+
+
+<div class="row px-5">
+    <h2>Update Event</h2>
+
+    <div class="col-md-12">
+        <div class="form-group">
+            <label class="control-label col-md-2">Images</label>
+            <div class="col-md-10 d-flex">
+                <div>
+                    <img src="~/img/event/@Model.EventImages.FirstOrDefault(i=>i.IsMain).ImageURL" alt="" />
+                    <h6>Main Image</h6>
+                </div>
+                <ul>
+                    @foreach (var imageUrl in Model.EventImages)
+                    {
+                        if (!imageUrl.IsMain)
+                        {
+                            <li><img src="~/img/event/@imageUrl.ImageURL" alt="Course Image" style="max-width: 200px; max-height: 100px;" /></li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+        <form asp-action="Update" enctype="multipart/form-data">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <input class="border-input" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <input class="border-input" asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FullAddress" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <input class="border-input" asp-for="FullAddress" class="form-control" />
+                        <span asp-validation-for="FullAddress" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Desc" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <textarea class="border-input" asp-for="Desc" class="form-control"></textarea>
+                        <span asp-validation-for="Desc" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EventStartDate" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <input class="border-input" asp-for="EventStartDate" class="form-control" />
+                        <span asp-validation-for="EventStartDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EventEndDate" class="control-label col-md-2"></label>
+                    <div class="col-md-10">
+                        <input class="border-input" asp-for="EventEndDate" class="form-control" />
+                        <span asp-validation-for="EventEndDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageURLUpload" class="control-label col-md-2">Images</label>
+                    <div class="col-md-10">
+                        <input class="border-input" type="file" asp-for="ImageURLUpload" multiple class="form-control" />
+                        <span asp-validation-for="ImageURLUpload" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Tags</label>
+                    <div class="col-md-10">
+                        <select asp-for="SelectedTagIds" class="form-control" asp-items="ViewBag.Tags" multiple="multiple"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Speakers</label>
+                    <div class="col-md-10">
+                        <select asp-for="SelectedSpeakersIds" class="form-control" asp-items="ViewBag.Speakers" multiple="multiple"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Update" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-success" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

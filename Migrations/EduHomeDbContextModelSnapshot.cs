@@ -47,7 +47,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AboutContents");
+                    b.ToTable("AboutContents", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Blog", b =>
@@ -78,7 +78,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.BlogImage", b =>
@@ -107,7 +107,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("BlogImages");
+                    b.ToTable("BlogImages", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.BlogTag", b =>
@@ -133,7 +133,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BlogTags");
+                    b.ToTable("BlogTags", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Category", b =>
@@ -154,7 +154,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.ChooseContent", b =>
@@ -187,7 +187,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ChooseContents");
+                    b.ToTable("ChooseContents", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Course", b =>
@@ -223,7 +223,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Course");
+                    b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.CourseCategory", b =>
@@ -249,7 +249,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("CourseCategories");
+                    b.ToTable("CourseCategories", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.CourseFeature", b =>
@@ -300,7 +300,7 @@ namespace EduHome.Migrations
                     b.HasIndex("CourseId")
                         .IsUnique();
 
-                    b.ToTable("CourseFeatures");
+                    b.ToTable("CourseFeatures", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.CourseImage", b =>
@@ -330,7 +330,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("CourseImages");
+                    b.ToTable("CourseImages", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.CourseTag", b =>
@@ -356,7 +356,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("CourseTags");
+                    b.ToTable("CourseTags", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Event", b =>
@@ -397,7 +397,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Events");
+                    b.ToTable("Events", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.EventImage", b =>
@@ -427,7 +427,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("EventId");
 
-                    b.ToTable("EventImages");
+                    b.ToTable("EventImages", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.EventSpeaker", b =>
@@ -453,7 +453,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("SpeakerId");
 
-                    b.ToTable("EventSpeakers");
+                    b.ToTable("EventSpeakers", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.EventTag", b =>
@@ -479,7 +479,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("EventTags");
+                    b.ToTable("EventTags", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Hobbie", b =>
@@ -499,7 +499,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Hobbies");
+                    b.ToTable("Hobbies", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.NoticeBoard", b =>
@@ -523,7 +523,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NoticeBoards");
+                    b.ToTable("NoticeBoards", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Setting", b =>
@@ -551,7 +551,7 @@ namespace EduHome.Migrations
                     b.HasIndex("Key")
                         .IsUnique();
 
-                    b.ToTable("Settings");
+                    b.ToTable("Settings", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Skill", b =>
@@ -571,7 +571,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Skills");
+                    b.ToTable("Skills", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Slider", b =>
@@ -591,7 +591,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.SliderContent", b =>
@@ -622,7 +622,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("SliderId");
 
-                    b.ToTable("SliderContent");
+                    b.ToTable("SliderContent", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Speaker", b =>
@@ -652,7 +652,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Speakers");
+                    b.ToTable("Speakers", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Tag", b =>
@@ -672,7 +672,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Teacher", b =>
@@ -696,7 +696,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Teachers");
+                    b.ToTable("Teachers", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.TeacherDetail", b =>
@@ -746,7 +746,7 @@ namespace EduHome.Migrations
                     b.HasIndex("TeacherId")
                         .IsUnique();
 
-                    b.ToTable("TeacherDetails");
+                    b.ToTable("TeacherDetails", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.TeacherHobbie", b =>
@@ -772,7 +772,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("TeacherHobbies");
+                    b.ToTable("TeacherHobbies", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.TeacherImage", b =>
@@ -800,7 +800,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("TeacherImages");
+                    b.ToTable("TeacherImages", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.TeacherSkill", b =>
@@ -826,7 +826,7 @@ namespace EduHome.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("TeacherSkills");
+                    b.ToTable("TeacherSkills", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.Testimonial", b =>
@@ -860,7 +860,7 @@ namespace EduHome.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Testimonials");
+                    b.ToTable("Testimonials", (string)null);
                 });
 
             modelBuilder.Entity("EduHome.Models.BlogImage", b =>

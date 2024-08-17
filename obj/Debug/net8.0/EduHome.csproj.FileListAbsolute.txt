@@ -249,3 +249,4 @@ C:\Users\User\Desktop\Code Academy\Tasks\Backend\Backend-Project\EduHome\obj\Deb
 C:\Users\User\Desktop\Code Academy\Tasks\Backend\Backend-Project\EduHome\obj\Debug\net8.0\EduHome.genruntimeconfig.cache
 C:\Users\User\Desktop\Code Academy\Tasks\Backend\Backend-Project\EduHome\obj\Debug\net8.0\ref\EduHome.dll
 C:\Users\User\Desktop\Code Academy\Tasks\Backend\Backend-Project\EduHome\obj\Debug\net8.0\EduHome.sourcelink.json
+C:\Users\User\Desktop\Code Academy\Tasks\Backend\Backend-Project\EduHome\bin\Debug\net8.0\web.config

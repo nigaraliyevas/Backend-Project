@@ -1,0 +1,70 @@
+﻿@using EduHome.Areas.AdminArea.ViewModel.Blog
+@model BlogCreateVM
+
+@{
+    ViewData["Title"] = "Create Blog";
+}
+
+<h2>Create New Blog</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="WrittenBy" class="control-label col-md-2">Written By</label>
+        <div class="col-md-10">
+            <input asp-for="WrittenBy" class="form-control" />
+            <span asp-validation-for="WrittenBy" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WrittenDate" class="control-label col-md-2">Written Date</label>
+        <div class="col-md-10">
+            <input asp-for="WrittenDate" class="form-control" type="date" />
+            <span asp-validation-for="WrittenDate" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Header" class="control-label col-md-2">Header</label>
+        <div class="col-md-10">
+            <input asp-for="Header" class="form-control" />
+            <span asp-validation-for="Header" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Desc" class="control-label col-md-2">Description</label>
+        <div class="col-md-10">
+            <textarea asp-for="Desc" class="form-control" rows="5"></textarea>
+            <span asp-validation-for="Desc" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageURLUpload" class="control-label col-md-2">Upload Images</label>
+        <div class="col-md-10">
+            <input asp-for="ImageURLUpload" class="form-control" type="file" multiple />
+            <span asp-validation-for="ImageURLUpload" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-group">
+            <label for="Tags" class="control-label">Tags</label>
+            <select asp-for="SelectedTagIds" class="form-control border-input" asp-items="ViewBag.Tags" multiple="multiple"></select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-default">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

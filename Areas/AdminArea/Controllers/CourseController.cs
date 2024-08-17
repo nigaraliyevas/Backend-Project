@@ -13,7 +13,7 @@ namespace EduHome.Areas.AdminArea.Controllers
     public class CourseController(EduHomeDbContext _context) : Controller
     {
         // GET: CategoryController
-        public ActionResult Index()
+        public IActionResult Index()
         {
             var courses = _context.Course
                 .Include(c => c.CourseTags)
@@ -27,7 +27,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         }
 
         // GET: CategoryController/Details/5
-        public async Task<ActionResult> Detail(int id)
+        public async Task<IActionResult> Detail(int id)
         {
             if (id == null) return NotFound();
             var course = await _context.Course
@@ -64,7 +64,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         }
 
         // GET: CategoryController/Create
-        public async Task<ActionResult> Create()
+        public async Task<IActionResult> Create()
         {
             ViewBag.Categories = new SelectList(await _context.Category.ToListAsync(), "Id", "Name");
             ViewBag.Tags = new SelectList(await _context.Tags.ToListAsync(), "Id", "TagName");
@@ -74,7 +74,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         // POST: CategoryController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(CourseCreateVM courseCreateVM)
+        public async Task<IActionResult> Create(CourseCreateVM courseCreateVM)
         {
             ViewBag.Categories = new SelectList(await _context.Category.ToListAsync(), "Id", "Name");
             ViewBag.Tags = new SelectList(await _context.Tags.ToListAsync(), "Id", "TagName");
@@ -83,26 +83,26 @@ namespace EduHome.Areas.AdminArea.Controllers
             var fileImageURLs = courseCreateVM.ImageURLUpload;
             Course course = new Course();
             List<CourseImage> list = new List<CourseImage>();
-            if (fileImageURLs.Count == 0)
+            if (fileImageURLs.Count() == 0)
             {
-                ModelState.AddModelError("UploadPhotos", "Can't be empty");
+                ModelState.AddModelError("ImageURLUpload", "Can't be empty");
                 return View(courseCreateVM);
             }
             foreach (var fileImageURL in fileImageURLs)
             {
                 if (fileImageURL == null)
                 {
-                    ModelState.AddModelError("Photo", "Can't be empty");
+                    ModelState.AddModelError("ImageURLUpload", "Can't be empty");
                     return View(courseCreateVM);
                 }
                 if (!fileImageURL.CheckContentType("image"))
                 {
-                    ModelState.AddModelError("Photo", "Only Image");
+                    ModelState.AddModelError("ImageURLUpload", "Only Image");
                     return View(courseCreateVM);
                 }
                 if (fileImageURL.CheckSize(500))
                 {
-                    ModelState.AddModelError("Photo", "The Size is big");
+                    ModelState.AddModelError("ImageURLUpload", "The Size is big");
                     return View(courseCreateVM);
                 }
                 CourseImage courseImage = new();
@@ -142,7 +142,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         }
 
         // GET: CategoryController/Edit/5
-        public async Task<ActionResult> Update(int? id)
+        public async Task<IActionResult> Update(int? id)
         {
             if (id == null) return NotFound();
             var existCourse = await _context.Course
@@ -180,13 +180,16 @@ namespace EduHome.Areas.AdminArea.Controllers
         // POST: CategoryController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Update(int? id, CourseUpdateVM courseUpdateVM)
+        public async Task<IActionResult> Update(int? id, CourseUpdateVM courseUpdateVM)
         {
+            if (id == null) return NotFound();
+            courseUpdateVM.CourseImages = await _context.CourseImages
+                     .Where(ci => ci.CourseId == id)
+                     .ToListAsync();
             ViewBag.Categories = new SelectList(await _context.Category.ToListAsync(), "Id", "Name");
             ViewBag.Tags = new SelectList(await _context.Tags.ToListAsync(), "Id", "TagName");
 
             if (!ModelState.IsValid) return View(courseUpdateVM);
-            if (id == null) return NotFound();
             var existCourse = await _context.Course
                .Include(c => c.CourseTags)
                    .ThenInclude(c => c.Tags)
@@ -198,35 +201,35 @@ namespace EduHome.Areas.AdminArea.Controllers
             if (existCourse == null) return NotFound();
 
             var fileImageURLs = courseUpdateVM.ImageURLUpload;
-
-            if (fileImageURLs.Count() == 0)
+            if (fileImageURLs != null)
             {
-                ModelState.AddModelError("ImageURLUpload", "Can't be empty");
-                return View(courseUpdateVM);
-            }
-            foreach (var fileImageURL in fileImageURLs)
-            {
-                if (fileImageURL == null)
+                foreach (var fileImageURL in fileImageURLs)
                 {
-                    ModelState.AddModelError("ImageURLUpload", "Can't be empty");
-                    return View(courseUpdateVM);
-                }
-                if (!fileImageURL.CheckContentType("image/"))
-                {
-                    ModelState.AddModelError("ImageURLUpload", "Only Image");
-                    return View(courseUpdateVM);
-                }
-                if (fileImageURL.CheckSize(500))
-                {
-                    ModelState.AddModelError("ImageURLUpload", "The Size is big");
-                    return View(courseUpdateVM);
-                }
-                CourseImage courseImage = new();
-                courseImage.CourseId = existCourse.Id;
-                courseImage.ImageURL = await fileImageURL.SaveFile("course");
-                courseImage.IsMain = false;
-                existCourse.CourseImages.Add(courseImage);
+                    if (!fileImageURL.CheckContentType("image"))
+                    {
+                        var images = await _context.CourseImages
+                         .Where(ci => ci.CourseId == existCourse.Id)
+                         .ToListAsync();
+                        courseUpdateVM.CourseImages = images;
+                        ModelState.AddModelError("ImageURLUpload", "Only Image");
+                        return View(courseUpdateVM);
+                    }
+                    if (fileImageURL.CheckSize(500))
+                    {
+                        var images = await _context.CourseImages
+                         .Where(ci => ci.CourseId == existCourse.Id)
+                         .ToListAsync();
+                        courseUpdateVM.CourseImages = images;
+                        ModelState.AddModelError("ImageURLUpload", "The Size is big");
+                        return View(courseUpdateVM);
+                    }
+                    CourseImage courseImage = new();
+                    courseImage.CourseId = existCourse.Id;
+                    courseImage.ImageURL = await fileImageURL.SaveFile("course");
+                    courseImage.IsMain = false;
+                    existCourse.CourseImages.Add(courseImage);
 
+                }
             }
 
             existCourse.Desc = courseUpdateVM.Desc;
@@ -272,24 +275,25 @@ namespace EduHome.Areas.AdminArea.Controllers
             if (image == null) return NotFound();
             image.IsMain = true;
             var mainImage = await _context.CourseImages.FirstOrDefaultAsync(i => i.IsMain && i.CourseId == image.CourseId);
+            if (mainImage == null) return NotFound();
             mainImage.IsMain = false;
             await _context.SaveChangesAsync();
             return RedirectToAction("Detail", new { id = image.CourseId });
         }
 
         // POST: CategoryController/Delete/5
-        public async Task<ActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            //if (id == null) return NotFound();
-            //var course = await _context.Course
-            //   .Include(c => c.CourseImages)
-            //   .FirstOrDefaultAsync(i => i.Id == id);
-            //if (course == null) return NotFound();
-            //var image = course.CourseImages.FirstOrDefault(i => i.CourseId == id);
-            //if (image == null) return NotFound();
-            //Helper.DeleteImageFromFolder("choose", image.ImageURL);
-            //_context.CourseImages.Remove(image);
-            //await _context.SaveChangesAsync();
+            if (id == null) return NotFound();
+            var course = await _context.Course
+               .Include(c => c.CourseImages)
+               .FirstOrDefaultAsync(i => i.Id == id);
+            if (course == null) return NotFound();
+            var image = course.CourseImages.FirstOrDefault(i => i.CourseId == id);
+            if (image == null) return NotFound();
+            Helper.DeleteImageFromFolder(image.ImageURL, "course");
+            _context.Course.Remove(course);
+            await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
     }

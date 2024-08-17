@@ -13,17 +13,20 @@
         <div class="col-md-4">
             <div class="d-flex">
                 <div class="border-input">
-                    <img src="~/img/course/@Model.CourseImages.FirstOrDefault(s=>s.IsMain)?.ImageURL" alt="" width="200" />
+                    <img src="~/img/course/@Model.CourseImages?.FirstOrDefault(s=>s.IsMain)?.ImageURL" alt="" width="200" />
                     <h6>Main Image</h6>
                 </div>
-                @foreach (var img in Model.CourseImages)
+                @if (Model.CourseImages is not null)
                 {
-                    if (!img.IsMain)
+                    @foreach (var img in Model.CourseImages)
                     {
-                        <div class="border-input">
-                            <img src="~/img/course/@img.ImageURL" alt="" width="100" />
-                            <a class="d-block btn btn-danger p-1" asp-action="deleteImage" asp-route-id="@img.Id">Delete</a>
-                        </div>
+                        if (!img.IsMain)
+                        {
+                            <div class="border-input">
+                                <img src="~/img/course/@img.ImageURL" alt="" width="100" />
+                                <a class="d-block btn btn-danger p-1" asp-action="deleteImage" asp-route-id="@img.Id">Delete</a>
+                            </div>
+                        }
                     }
                 }
             </div>

@@ -9,13 +9,13 @@ namespace EduHome.Areas.AdminArea.Controllers
     public class NoticeController(EduHomeDbContext _context) : Controller
     {
         // GET
-        public async Task<ActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             return View(await _context.NoticeBoards.ToListAsync());
         }
 
         // GET
-        public async Task<ActionResult> Detail(int? id)
+        public async Task<IActionResult> Detail(int? id)
         {
             if (id == null) return NotFound();
 
@@ -27,7 +27,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         }
 
         // GET
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -46,7 +46,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         }
 
         // GET
-        public async Task<ActionResult> Update(int? id)
+        public async Task<IActionResult> Update(int? id)
         {
             if (id == null) return NotFound();
             var noticeBoard = await _context.NoticeBoards.FirstOrDefaultAsync(n => n.Id == id);
@@ -57,7 +57,7 @@ namespace EduHome.Areas.AdminArea.Controllers
         // POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Update(int? id, [Bind("Date,Desc")] NoticeBoard noticeBoard)
+        public async Task<IActionResult> Update(int? id, [Bind("Date,Desc")] NoticeBoard noticeBoard)
         {
             if (!ModelState.IsValid) return View(noticeBoard);
             var existNotice = await _context.NoticeBoards.FirstOrDefaultAsync(n => n.Id == id);
@@ -71,7 +71,7 @@ namespace EduHome.Areas.AdminArea.Controllers
             return RedirectToAction("index", "notice");
         }
 
-        public async Task<ActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             var noticeBoard = await _context.NoticeBoards.FirstOrDefaultAsync(n => n.Id == id);
             _context.NoticeBoards.Remove(noticeBoard);

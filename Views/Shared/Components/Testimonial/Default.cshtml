@@ -1,20 +1,23 @@
-﻿@model Testimonial
+﻿@model IEnumerable<Testimonial>
 
-<div class="testimonial-owl owl-theme owl-carousel">
-    <div class="col-md-8 col-md-offset-2 col-sm-12">
-        <div class="single-testimonial">
-            <div class="testimonial-info">
-                <div class="testimonial-img">
-                    <img src="~/img/testimonial/@Model.ImageURL" alt="testimonial">
-                </div>
-                <div class="testimonial-content">
-                    <p>@Model.Desc</p>
-                    <h4>@Model.Name</h4>
-                    <h5>@Model.Position</h5>
+@foreach (var test in Model.Take(1))
+{
+    <div class="testimonial-owl owl-theme owl-carousel">
+        <div class="col-md-8 col-md-offset-2 col-sm-12">
+            <div class="single-testimonial">
+                <div class="testimonial-info">
+                    <div class="testimonial-img">
+                        <img src="~/img/testimonial/@test.ImageURL" alt="testimonial">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>@test.Desc</p>
+                        <h4>@test.Name</h4>
+                        <h5>@test.Position</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+}
 }
 

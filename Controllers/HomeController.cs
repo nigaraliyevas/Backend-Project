@@ -25,6 +25,7 @@ namespace EduHome.Controllers
             var events = await _context.Events
                 .AsNoTracking()
                 .OrderByDescending(d => d.EventStartDate)
+                .Take(8)
                 .ToListAsync();
 
             if (datas == null || noticesRight == null || chooseContent == null || events == null) return NotFound();
